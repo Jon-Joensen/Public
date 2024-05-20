@@ -41,6 +41,7 @@ section#home {
 section img {
     max-width: 100%;
     height: auto;
+    margin-top: 1rem;
 }
 
 .portfolio-item {
