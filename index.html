@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Consultant</title>
+    <title>Network Consultant - Jon Joensen</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,6 +13,9 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -26,6 +29,7 @@
     <section id="about">
         <h2>About Me</h2>
         <p>I am a senior network consultant with over 15 years of experience in the industry.</p>
+        <img src="profile.jpg" alt="Profile Picture">
     </section>
 
     <section id="services">
@@ -38,13 +42,62 @@
         </ul>
     </section>
 
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Project 1 description.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Project 2 description.</p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"Jon provided exceptional network solutions for our company."</p>
+            <footer>- Client Name</footer>
+        </blockquote>
+        <blockquote>
+            <p>"Highly recommend Jon for his expertise and professionalism."</p>
+            <footer>- Another Client</footer>
+        </blockquote>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Latest Trends in Network Security</h3>
+            <p>Excerpt from the latest blog post...</p>
+            <a href="blog-post1.html">Read more</a>
+        </article>
+        <article>
+            <h3>Optimizing Network Performance</h3>
+            <p>Excerpt from another blog post...</p>
+            <a href="blog-post2.html">Read more</a>
+        </article>
+        <!-- Add more blog posts as needed -->
+    </section>
+
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: consultant@example.com</p>
+        <form action="https://formspree.io/f/{your-id}" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Network Consultant. All rights reserved.</p>
+        <p>&copy; 2024 Jon Joensen. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
