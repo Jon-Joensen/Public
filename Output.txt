@@ -1,0 +1,24 @@
+Best layout score: -228.67
+Changes from base: 7
+Frequency score: 18.23
+Bigram score: 0.00
+Change penalty: 250.00
+
+Optimized layout:
+úáertyuiopå
+asdfhgjklæø
+ýóívbnm
+
+Base layout comparison:
+qwert yuiopå
+asdfghjklæø
+zxcvbnm
+
+Changes made:
+Position (0,0): 'q' → 'ú'
+Position (0,1): 'w' → 'á'
+Position (1,4): 'g' → 'h'
+Position (1,5): 'h' → 'g'
+Position (2,0): 'z' → 'ý'
+Position (2,1): 'x' → 'ó'
+Position (2,2): 'c' → 'í'
